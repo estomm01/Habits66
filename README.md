@@ -37,6 +37,11 @@ After you clone the repository from GitHub, you can navigate to the <b>client</b
 * Javascript (ES6)
 * [React](https://reactjs.org/)
 * [Material UI](https://material-ui.com/)
+* Express
+* MongoDB
+* CanvasJS (https://canvasjs.com/javascript-charts/)
+* React Bootstrap (https://react-bootstrap.github.io/)
+
 
 
 ## Getting Started
@@ -50,6 +55,23 @@ Clone the repo
 $ git clone https://github.com/Mhr85/project3_dev.git
 
 ```
+
+The following packages are dependencies to the project.
+
+* [@material-ui/core](https://www.npmjs.com/package/@material-ui/core)
+  * This is a third party design library of React components that implement Google's Material Design.
+* [@material-ui/icons](https://www.npmjs.com/package/@material-ui/icons)
+  * This is a library of Material Design icons.
+* [prop-types](https://www.npmjs.com/package/prop-types)
+  * This is used to document and validate the different properties passed to a component.
+* [react](https://www.npmjs.com/package/react)
+  * This package contains the functionality necessary to define React components.
+* [react-dom](https://www.npmjs.com/package/react-dom)
+  * This serves as the entry point of the DOM-related rendering paths.
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+  * This is a third party routing library use to connect and link different components across the app.
+* [react-scripts](https://www.npmjs.com/package/react-scripts)
+  * This includes scripts and configuration used by Create React App.
 Install dependencies
 
 ```
