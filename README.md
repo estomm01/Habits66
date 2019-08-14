@@ -14,6 +14,31 @@ View a live example here: https://habits-sixtysix.herokuapp.com
 
 ![Habits66](client/src/assets/images/git-readme.png)
 
+
+
+### <a name="project-structure"></a> Structure of the project
+
+After you clone the repository from GitHub, you can navigate to the <b>client</b> directory. The project directory structure will be set up as follows:
+
+* <b>public</b>: The public folder contains the main index.html file. This HTML file contains a div with an id of root, which is the entry point to the app. This site uses a React component-based architecture to create, build, and render UI components.
+* <b>src</b>: The src folder is where the React components reside.
+  * <b>App.js</b>: The App.js file is where the components are imported and rendered, such as the top navigation bar, footer, and various page routes.
+  * <b>index.js</b>: The index.js file is the top level file of the React app. In index.js, the App.js file is imported, and the ReactDOM.render method is used to render App.js.
+  * <b>components</b>: The components folder is where the components that are reused across the app are located. Each file represents a separate component. For example, NavBar is the top navigation bar component that can be reused across the entire app for a consistent look and feel on each page. Each component also has their own, separate css.
+* <b>App.css</b> and <b>index.css</b>: The external css stylesheets for the app.
+* <b>.gitignore</b>: Anything listed inside this file (for example, node_modules) will not be tracked by GitHub when code is committed and pushed.
+* <b>package.json</b>: Lists the project dependencies and their version numbers.
+* <b>package-lock.json</b>: Dependency tree for the project. Lists all the dependencies and their versions.
+
+## <a name="technologies-used"></a> Technologies used to create app
+
+* HTML5
+* CSS
+* Javascript (ES6)
+* [React](https://reactjs.org/)
+* [Material UI](https://material-ui.com/)
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
