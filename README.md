@@ -43,7 +43,6 @@ After you clone the repository from GitHub, you can navigate to the <b>client</b
 * React Bootstrap (https://react-bootstrap.github.io/)
 
 
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -60,8 +59,6 @@ The following packages are dependencies to the project.
 
 * [@material-ui/core](https://www.npmjs.com/package/@material-ui/core)
   * This is a third party design library of React components that implement Google's Material Design.
-* [@material-ui/icons](https://www.npmjs.com/package/@material-ui/icons)
-  * This is a library of Material Design icons.
 * [prop-types](https://www.npmjs.com/package/prop-types)
   * This is used to document and validate the different properties passed to a component.
 * [react](https://www.npmjs.com/package/react)
@@ -72,6 +69,14 @@ The following packages are dependencies to the project.
   * This is a third party routing library use to connect and link different components across the app.
 * [react-scripts](https://www.npmjs.com/package/react-scripts)
   * This includes scripts and configuration used by Create React App.
+ * [axios] (https://www.npmjs.com/package/axios)
+ * [Okta] (https://www.npmjs.com/package/okta)
+ * [CORS] (https://www.npmjs.com/package/cors)
+ * [react calendar] (https://www.npmjs.com/package/rc-calendar)
+ * [Semantic UI react] (https://www.npmjs.com/package/semantic-ui-react)
+ * [react bootstrap] (https://www.npmjs.com/package/react-bootstrap)
+ * [Inspirational-Quotes] (https://www.npmjs.com/package/inspirational-quotes)
+  
 Install dependencies
 
 ```
